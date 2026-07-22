@@ -7,6 +7,7 @@ This folder contains my practice and examples for Python fundamentals.
 - Variables
 - Data Types
 - Input and Output
+- Type Conversion
 - Operators
 - Conditional Statements
 - Loops
