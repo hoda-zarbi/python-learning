@@ -1,6 +1,10 @@
 """
 Exercise 02
-Topic: variables, Data Types, Input()
+Topic:
+- Variables
+- Data Types
+- Input
+- Output
 
 Project:
 Employee Card
@@ -11,25 +15,29 @@ and user input by creating a simple employee profile.
 """
 
 # Get employee information
+employee_id = input("Enter employee ID: ")
 full_name = input("Enter your full name: ")
-age = int(input("Enter your age: ")
-gender = input("Enter your gender: ")
+age = int(input("Enter your age: "))
 job_title = input("Enter your job title: ")
-salary = float(input("Enter your salary ($): "))
+department = input("Enter department: ")
 company_name = input("Enter your company name: ")
-nationality = input("Enter your nationality: ")
+salary = float(input("Enter your salary ($): "))
+work_location = input("Enter work location: ")
 email = input("Enter your email: ")
 phone_number = input("Enter your phone number: ")
 
 # Display the employee card
-print("\n========== Employee Card ==========")
-print("Full Name:", full_name)
-print("Age:", age)
-print("Gender:", gender)
-print("Job Title:", job_title)
+print("========== Employee Card ==========")
+print("Employee ID: ", employee_id)
+print("Full Name: ", full_name)
+print("Age: ", age)
+print("Job Title: ", job_title)
+print("Department: ", department)
+print("Company: ", company_name)
 print("Salary: $", salary)
-print("Company Name:", company_name)
-print("Nationality:", nationality)
-print("Email:", email)
-print("Phone Number:", phone_number)
-print("===================================")
+print("Work Location: ", work_location)
+print("Email: ", email)
+print("Phone Number: ", phone_number)
+print("==================================")
+
+print("Welcome to OpenAI!")
