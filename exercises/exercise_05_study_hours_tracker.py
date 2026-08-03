@@ -25,7 +25,8 @@ number_of_days = int(input("How many days do you want to track? "))
 for day in range(1, number_of_days + 1):
     study_hours = float(input("Enter study hours: "))
     print("Day", day, "Study Hours:", study_hours)
-
+    
+# Display the closing message
 print()
 print("==============================")
 print("Good luck with your studies!")
