@@ -18,7 +18,6 @@ tracker program.
 """
 
 print("===== Study Hours Tracker =====")
-print()
 
 number_of_days = int(input("How many days do you want to track? "))
 
@@ -27,6 +26,5 @@ for day in range(1, number_of_days + 1):
     print("Day", day, "Study Hours:", study_hours)
     
 # Display the closing message
-print()
 print("==============================")
 print("Good luck with your studies!")
