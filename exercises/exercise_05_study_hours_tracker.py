@@ -16,16 +16,14 @@ Practice using variables, data types, user input,
 output and loops by creating a simple study hours
 tracker program.
 """
-print()
 
 print("===== Study Hours Tracker =====")
 number_of_days = int(input("How many days do you want to track? "))
-print()
 
 for day in range(1, number_of_days + 1):
     study_hours = float(input("Enter study hours: "))
     print("Day", day, "Study Hours:", study_hours)
-    
+   
        
 # Display the closing message
 print("==============================")
