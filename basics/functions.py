@@ -8,9 +8,6 @@ can perform a reusable calculation in Python.
 
 print("===== Student Grade Calculator =====")
 print("Calculating student average...")
-print()
-
-# Get student grades
 
 math_grade = float(input("Enter math grade: "))
 python_grade = float(input("Enter Python grade: "))
