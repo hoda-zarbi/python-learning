@@ -7,12 +7,10 @@ can be used to make decisions in Python.
 """
 
 print("=== Weather Clothing Advisor ===")
-print()
 
 # Receive weather information from the user
 temperature = float(input("Enter the temperature (°C): "))
 
-print()
 
 # Recommend clothing based on the temperature
 if temperature < 10:
