@@ -13,10 +13,6 @@ math_grade = float(input("Enter math grade: "))
 python_grade = float(input("Enter Python grade: "))
 english_grade = float(input("Enter English grade: "))
 
-print()
-
-# Calculate the average
-
 def calculate_average(grade1, grade2, grade3):
     average = (grade1 + grade2 + grade3) / 3
     return average
